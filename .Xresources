@@ -68,6 +68,7 @@ URxvt.saveLines:16384
 
 ! Clickble URLs
 URxvt.perl-ext-common: default,matcher,tabbed
+! #,#tabbed
 URxvt.url-launcher: /usr/bin/x-www-browser
 URxvt.matcher.button: 3
 

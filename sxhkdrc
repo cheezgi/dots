@@ -1,3 +1,4 @@
+
 # ░█▀▀░█░█░█░█░█░█░█▀▄░█▀▄░█▀▀
 # ░▀▀█░▄▀▄░█▀█░█▀▄░█░█░█▀▄░█░░
 # ░▀▀▀░▀░▀░▀░▀░▀░▀░▀▀░░▀░▀░▀▀▀
@@ -34,7 +35,7 @@ super + alt + Escape
 super + f
 	waitron window_maximize
 
-# close windo
+# close window
 super + w
 	waitron window_close
 
@@ -64,9 +65,12 @@ super + {_,shift +}{1-4}
 super + ctrl + r
 	waitron group_remove_window
 
-# open terminal
+# open terminal - tabbed
 super + Return
 	urxvt
+
+super + shift + Return
+	urxvt -pe "-tabbed,default,matcher"
 
 # teleport window
 super + {Insert,Prior,Delete,Next,End}
@@ -101,4 +105,7 @@ super + Tab
 
 super + shift + Tab
 	waitron window_rev_cycle
+
+super + Print
+	scrot -e 'mv $f ~/Pictures/screenshots'
 

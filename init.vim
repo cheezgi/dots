@@ -79,7 +79,7 @@ Plug 'whatyouhide/vim-gotham'
 Plug 'idanarye/vim-smile'
 Plug 'hauleth/vim-ketos'
 Plug 'kovetskiy/sxhkd-vim'
-Plug 'ap/vim-css-color'
+"Plug 'ap/vim-css-color'
 "Plug 'brandonbloom/vim-factor'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'zchee/deoplete-jedi'
