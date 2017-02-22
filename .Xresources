@@ -57,8 +57,6 @@ URxvt.iconFile: /usr/share/icons/Faenza-Bunsen-common/apps/48/utilities-terminal
 !URxvt*background: #cecece
 !URxvt*foreground: #101010
 ! Terminator Crunchbang colours
-URxvt.background: #2e3436
-URxvt.foreground: #d8d8d8
 
 ! scrollback buffer lines - 65535 is max (64 is default)
 URxvt.saveLines:16384
@@ -88,6 +86,9 @@ URxvt.color12: #4186be
 URxvt.color13: #cf9ebe
 URxvt.color14: #71bebe
 URxvt.color15: #ffffff
+
+URxvt.background: #2e3436
+URxvt.foreground: #d8d8d8
 
 URxvt.tabbed.tabbar-fg: 7
 URxvt.tabbed.tabbar-bg: 0

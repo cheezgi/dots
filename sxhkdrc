@@ -70,7 +70,7 @@ super + Return
 	urxvt
 
 super + shift + Return
-	urxvt -pe "-tabbed,default,matcher"
+	urxvt +sb -pe "-tabbed,default,matcher"
 
 # teleport window
 super + {Insert,Prior,Delete,Next,End}
@@ -94,7 +94,7 @@ super + u
 
 # open htop
 ctrl + shift + Escape
-	urxvt -pe "-tabbed,default,matcher" -e 'sudo htop'
+	urxvt +sb -pe "-tabbed,default,matcher" -e 'sudo htop'
 
 # open clock applet
 super + t
@@ -111,4 +111,7 @@ super + shift + Tab
 
 super + Print
 	scrot -e 'mv $f ~/Pictures/screenshots'
+
+super + e
+	urxvt +sb -pe "-tabbed,default,matcher" -e 'ranger'
 
