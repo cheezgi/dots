@@ -94,11 +94,14 @@ super + u
 
 # open htop
 ctrl + shift + Escape
-	xterm -e sudo htop
+	urxvt -pe "-tabbed,default,matcher" -e 'sudo htop'
 
 # open clock applet
 super + t
-	bin/clock
+	~/bin/clock.sh
+
+super + c
+	~/bin/calendar.sh
 
 super + Tab
 	waitron window_cycle
