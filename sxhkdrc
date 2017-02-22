@@ -80,9 +80,9 @@ super + {Insert,Prior,Delete,Next,End}
 #super + {_,alt +}t
 #	waitron mouse_toggle {move,resize}
 
-# change window stacking order - emulate 2bwm
-super + r
-	waitron window_focus $(pfw)
+# move and resize with mouse
+super {_, shift +} r
+	{xmmv, xmrs}
 
 # max height left side
 super + y
