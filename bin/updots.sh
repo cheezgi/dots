@@ -4,6 +4,7 @@
 # ░░░░▄▀░░█░█░█▀▀░█░█░█░█░░█░░▀▀█
 # ░▀░░▀░░░▀▀▀░▀░░░▀▀░░▀▀▀░░▀░░▀▀▀
 
+
 cd ~/dots
 
 # copy everything
@@ -15,10 +16,12 @@ cp ~/.Xresources ~/dots
 cp ~/.xsession ~/dots
 cp ~/bin ~/dots -r
 
-# push to github
-git add .
-git commit
-git push
+if [ "$1" != "-l" ]; then
+    # push to github
+    git add .
+    git commit
+    git push
+fi
 
 cd -
 
