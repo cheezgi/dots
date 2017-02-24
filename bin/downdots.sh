@@ -16,6 +16,7 @@ cp ~/dots/init.vim ~/.config/nvim
 cp ~/dots/.zshrc ~
 cp ~/dots/.Xresources ~
 cp ~/dots/.xsession ~
+cp ~/dots/compton.conf ~/.config
 cp -r ~/dots/bin ~
 
 cd -

@@ -14,6 +14,7 @@ cp ~/.config/nvim/init.vim ~/dots
 cp ~/.zshrc ~/dots
 cp ~/.Xresources ~/dots
 cp ~/.xsession ~/dots
+cp ~/.config/compton.conf ~/dots
 cp ~/bin ~/dots -r
 
 if [ "$1" != "-l" ]; then
