@@ -1,7 +1,6 @@
 # dots
 
-my essential dotfiles.
+my dotfiles. use with caution.
 
-wm: [wchf](https://github.com/tudurom/windowchef)
-
-editor: [nvim](https://github.com/neovim/neovim)
+to use downdots.sh and updots.sh, you need to clone to ~/dots and change the
+remote `origin` to be your dotfile repo.
