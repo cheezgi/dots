@@ -99,5 +99,5 @@ export PATH="$PATH:/home/j/.cargo/bin"
 
 unsetopt AUTO_CD
 
-eval $(ssh-agent -s) &> /dev/null
-ssh-add ~/.ssh/id_ed25519 &> /dev/null
+#eval $(ssh-agent -s) &> /dev/null
+#ssh-add ~/.ssh/id_ed25519 &> /dev/null
