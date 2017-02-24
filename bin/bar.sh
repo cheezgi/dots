@@ -9,7 +9,7 @@ bar_time() {
 }
 
 while true; do
-    echo "%{l} $(bar_date)%{c}$(wname $(pfw))%{r}$(bar_time) "
+    echo "%{l} $(bar_date)%{c}%{A:~/bin/cycle_groups.sh:}$(wname $(pfw))%{A}%{r}$(bar_time) "
     sleep 0.2
 done
 
