@@ -14,10 +14,9 @@ sind -f "%a:%s:%b" | while IFS=: read app sum desc; do
         if [ "$desc" != " " ] && [ -n "$desc" ]; then
             message="$message - $desc"
         fi
+
+        # run popup script
         ~/bin/popup.sh $message
-        #width=$(txtw $message)
-        #geom="${width}x+${bar_x}+${bar_y}"
-        #( echo "%{c}$message"; sleep $duration ) | ~/source/bar/lemonbar -g $geom -B $bar_bg
     fi
 done
 

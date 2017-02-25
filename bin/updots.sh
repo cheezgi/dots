@@ -23,7 +23,11 @@ cp ~/bin ~/dots -r
 if [ "$1" != "-l" ]; then
     # push to github
     git add .
-    git commit
+    if [ -n "$1" ]; then
+        git commit -m "$1"
+    else
+        git commit
+    fi
     git push
 fi
 
