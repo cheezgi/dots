@@ -11,6 +11,9 @@ cd ~/dots
 cp ~/.config/windowchef/windowchefrc ~/dots
 cp ~/.config/sxhkd/sxhkdrc ~/dots
 cp ~/.config/nvim/init.vim ~/dots
+cp ~/.config/compton.conf ~/dots
+cp ~/.config/ranger/rc.conf ~/dots
+cp ~/.config/ranger/rifle.conf ~/dots
 cp ~/.zshrc ~/dots
 cp ~/.Xresources ~/dots
 cp ~/.xsession ~/dots
