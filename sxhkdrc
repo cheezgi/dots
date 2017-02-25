@@ -94,7 +94,7 @@ super + u
 
 # open htop
 ctrl + shift + Escape
-	urxvt +sb -pe "-tabbed,default,matcher" -e 'sudo htop'
+	urxvt +sb -pe "-tabbed,default,matcher" -e 'htop'
 
 # open clock applet
 super + t
