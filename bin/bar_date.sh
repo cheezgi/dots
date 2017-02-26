@@ -1,7 +1,7 @@
 #/bin/bash
 
 bar_date() {
-    echo "$(date +"%A %b %e %Y-%m-%d")"
+    echo "$(date +"%A %b %Y-%m-%d")"
 }
 
 while true; do
